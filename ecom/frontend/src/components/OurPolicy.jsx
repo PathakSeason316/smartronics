@@ -1,28 +1,43 @@
 import React from "react";
 import { assets } from "../assets/assets";
 
+const policies = [
+  {
+    icon: assets.exchange_icon,
+    title: "Easy Replacement Policy",
+    description: "We offer hassle-free exchange policy",
+  },
+  {
+    icon: assets.quality_icon,
+    title: "10 Days Return Policy",
+    description: "We facilitate 10 days free return policy",
+  },
+  {
+    icon: assets.support_img,
+    title: "Excellent Customer Service",
+    description: "We provide 24/7 Customer Support",
+  },
+];
+
 const OurPolicy = () => {
   return (
-    // binding all the store policies
-    <div className="flex flex-col sm:flex-row justify-around gap-12 sm:gap-2 text-center py-20 text-xs sm:text-sm md:text-base text-gray-700">
-      <div>
-        <img src={assets.exchange_icon} className="w-12 m-auto mb-5" alt="" />
-        <p className="font-semibold">Easy Replacement Policy</p>
-        <p className="text-gray-400">We offer hassle free exchange policy</p>
+    <section className="py-16 bg-white">
+      <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-3 gap-10 text-center">
+        {policies.map((policy, index) => (
+          <div key={index} className="flex flex-col items-center">
+            <img
+              src={policy.icon}
+              alt={policy.title}
+              className="w-14 h-14 mb-4"
+            />
+            <h3 className="text-base font-semibold text-gray-800 mb-1">
+              {policy.title}
+            </h3>
+            <p className="text-sm text-gray-500">{policy.description}</p>
+          </div>
+        ))}
       </div>
-
-      <div>
-        <img src={assets.quality_icon} className="w-12 m-auto mb-5" alt="" />
-        <p className="font-semibold">10 Days Return Policy</p>
-        <p className="text-gray-400">We facilitate 10 days free return policy</p>
-      </div>
-
-      <div>
-        <img src={assets.support_img} className='w-12 m-auto mb-5' alt=''/>
-        <p className = 'font-semibold'>Excellent Customer Service</p>
-        <p className='text-gray-400'>We provide 24/7 Customer Support</p>
-      </div>
-    </div>
+    </section>
   );
 };
 
