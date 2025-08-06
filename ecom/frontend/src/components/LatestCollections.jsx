@@ -17,7 +17,7 @@ const LatestCollections = () => {
       <div className="text-center mb-10">
         <Title heading="LATEST" subheading="COLLECTION" />
         <p className="w-full sm:w-3/4 md:w-1/2 mx-auto text-sm sm:text-base text-gray-600 mt-2">
-          Discover our newest arrivals — crafted with fresh designs, seasonal trends, and essential style.
+          Our newest arrivals are here — innovation, and next-gen performance.
         </p>
       </div>
 

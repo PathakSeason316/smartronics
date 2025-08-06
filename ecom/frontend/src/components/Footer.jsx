@@ -8,7 +8,7 @@ const Footer = () => {
 
         <div>
             <img src={assets.logo} className='mb-5 w-32' alt="" />
-            <p className='w-full md:w-2/3 text-gray-600'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo ducimus cumque animi perspiciatis dolore? Sit veniam assumenda voluptas laudantium quibusdam.</p>
+            <p className='w-full md:w-2/3 text-gray-600'>At Smartronics, our mission is to deliver quality gadgets with ease and affordability. We aim to connect people with the technology they need to stay ahead, live smarter, and shop with confidence.</p>
         </div>
 
         <div>

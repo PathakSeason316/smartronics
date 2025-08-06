@@ -12,7 +12,7 @@ const BestSeller = () => {
 
     //filter the products array and display the only 5 first bestsellers
     useEffect(() => {
-        const bestProduct = products.filter((item) =>(item.bestseller));
+        const bestProduct = products.filter((item) =>(item.bestSeller));
         setBestSeller(bestProduct.slice(0,5))
     },[products])
 
@@ -20,7 +20,7 @@ const BestSeller = () => {
     <div className='my-10'>
         <div className='text-center text-3xl py-8'>
             <Title heading={'BEST'} subheading ={'SELLERS'}/>
-            <p className='w-3/4 m-auto text-xs sm:text-sm md:tesxt-base text-gray-600'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex, laudantium repellendus hic vitae officia non labore libero enim rem. Quos!</p>
+            <p className='w-3/4 m-auto text-xs sm:text-sm md:tesxt-base text-gray-600'>Tried, tested, and loved by thousands — shop our most popular tech picks.</p>
         </div>
 
         {/* Render the Best Selling products */}

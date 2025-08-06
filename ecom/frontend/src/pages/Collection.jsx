@@ -92,7 +92,7 @@ const Collection = () => {
           <div className="border border-gray-300 rounded-md p-4 mb-6 bg-white shadow-sm">
             <p className="mb-3 text-sm font-semibold">CATEGORIES</p>
             <div className="flex flex-col gap-2 text-sm text-gray-700">
-              {['Men', 'Women', 'Kids'].map((label) => (
+              {['Smartphones', 'Laptops', 'Tablets'].map((label) => (
                 <label key={label} className="flex items-center gap-2">
                   <input
                     className="accent-black"
@@ -108,9 +108,9 @@ const Collection = () => {
 
           {/* SubCategory Filter */}
           <div className="border border-gray-300 rounded-md p-4 bg-white shadow-sm">
-            <p className="mb-3 text-sm font-semibold">TYPE</p>
+            <p className="mb-3 text-sm font-semibold">BRANDS</p>
             <div className="flex flex-col gap-2 text-sm text-gray-700">
-              {['Topwear', 'Bottomwear', 'Winterwear'].map((label) => (
+              {['Apple', 'Samsung', 'Microsoft'].map((label) => (
                 <label key={label} className="flex items-center gap-2">
                   <input
                     className="accent-black"

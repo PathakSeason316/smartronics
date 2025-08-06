@@ -21,19 +21,15 @@ const About = () => {
         />
         <article className="flex flex-col justify-center gap-6 md:w-2/4 text-gray-600">
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error
-            perspiciatis perferendis quis dicta, illo quae rem quisquam id iusto
-            eum!
+            Smartronics is your trusted destination for the latest gadgets and electronics. We bring top-quality products at competitive prices, with a focus on reliability, innovation, and customer satisfaction. Whether it's smartphones, smartwatches, or accessories — we’ve got you covered.
           </p>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore
-            totam sit dicta similique nisi quidem!
+            We’re passionate about making technology accessible to everyone. With a smooth shopping experience, fast delivery, and responsive support, Smartronics makes tech shopping simple and enjoyable.
+
           </p>
           <h3 className="font-bold text-gray-800 text-lg">Our Mission</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Voluptatibus praesentium voluptas odio commodi, accusantium inventore
-            molestiae quasi quisquam officia aliquid?
+            At Smartronics, our mission is to deliver quality gadgets with ease and affordability. We aim to connect people with the technology they need to stay ahead, live smarter, and shop with confidence.
           </p>
         </article>
       </section>
@@ -47,15 +43,15 @@ const About = () => {
         {[
           {
             title: 'Quality Assurance:',
-            desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis beatae, aliquam aperiam temporibus praesentium fugit repellendus ut perferendis error iusto quas ducimus veniam quis, mollitia est quo ex quod.',
+            desc: 'At Smartronics, we are committed to delivering only the highest quality gadgets and electronics. Each product goes through a rigorous quality check process to ensure durability, performance, and safety. We partner with trusted brands and manufacturers to bring you reliable tech you can count on, every time.',
           },
           {
             title: 'Convenience:',
-            desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis beatae, aliquam aperiam temporibus praesentium fugit repellendus ut perferendis error iusto quas ducimus veniam quis, mollitia est quo ex quod.',
+            desc: 'Shopping for electronics has never been easier. With Smartronics, you can browse, compare, and purchase your favorite gadgets from the comfort of your home. Our user-friendly interface, flexible payment options, and quick delivery services are designed to make your shopping experience seamless and stress-free.',
           },
           {
             title: 'Exceptional Customer Service',
-            desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis beatae, aliquam aperiam temporibus praesentium fugit repellendus ut perferendis error iusto quas ducimus veniam quis, mollitia est quo ex quod.',
+            desc: 'Our customers are at the heart of everything we do. Whether you need help choosing the right product or require post-purchase support, the Smartronics support team is always here for you. Expect prompt responses, knowledgeable assistance, and a dedication to solving your issues—because your satisfaction is our priority.',
           },
         ].map((item, index) => (
           <article
